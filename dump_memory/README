@@ -1,0 +1,5 @@
+模块作用：
+	用于dump任意地址内存数据，并把内存写到文件中。
+
+使用示例：
+	insmod dump_memory.ko path=/tmp/dump.bin base_addr=0xffffffffb5d1c580 offset=0x100	
